@@ -1,0 +1,41 @@
+Régler probleme de retour sur focus blablabla
+audio media playback 
+		
+		
+
+		------------- INCOMING --------------
+		
+destroy maze instance at the end of the game in HighScoreScene !!!! (sinon impossible de faire deux parties d'affilés)
+detecter collision sur des rectangles moins epais 
+detecter collisions sur acceleration rapide
+
+TODO virer ces putains de ground/exemples
+TODO rapetisser la taille de la bille
+TODO agrandir la taille des murs
+
+				
+			
+	
+
+
+			
+		
+		
+		------------- DONE -------------
+		
+TOFIX récuperer les 3 premiers scores d'un tableau des highscores contenant moins de 3 scores ? DONE
+n'afficher que les murs verts+noir ou rouge+noir et basculer a chaque appui sur le tactile  	DONE
+modfier position de spawn en fonction des xStart et yStart de Maze								DONE
+TOFIX highscoreScene = blackscreen => mauvais pattern couleur 								FIXED
+
+rajouter une zone de fin (taille fixe position définie par xEnd, yEnd, couleure violette)				DONE
+	lorsque l'on franchit la zone de fin, faire apparaitre écran de fin avec score						WAITING COLLISION
+		enregistrer les scores dans un fichier highscores.dat											DONE
+			 créer un highscores.dat par .maze => soluce = ajouter champs hishScores à Maze				DONE
+				créer fonction serializeMaze et deserializeMaze											DONE
+					tester ces fonctions en créant et chargant un test3.maze							DONE
+		tester affichage du score courant																DONE 
+			récuperer tout les scores 																	DONE 
+				tester affichage de la position du score courant (adapter addHighScore)					DONE
+		TODO corriger l'affichage de HighScoreScene														DONE
+
